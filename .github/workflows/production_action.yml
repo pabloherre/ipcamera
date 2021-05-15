@@ -17,7 +17,7 @@ jobs:
           target_branch: staging
           github_token: ${{ github.token }}
           
-     - name: Merge Staging -> master
+      - name: Merge Staging -> master
         uses: devmasx/merge-branch@v1.3.1
         with:
           type: now
