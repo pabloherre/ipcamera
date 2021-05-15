@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Merge production -> staging
+      - name: Merge Staging -> Master
         uses: devmasx/merge-branch@v1.3.1
         with:
           type: now
