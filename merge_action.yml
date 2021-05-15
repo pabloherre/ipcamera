@@ -1,2 +1,0 @@
-- name: Merge branch
-  uses: devmasx/merge-branch@v1.3.1
